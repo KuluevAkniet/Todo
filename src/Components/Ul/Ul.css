@@ -1,0 +1,10 @@
+.todolist{
+    padding-left: 0;
+}
+
+.btn{
+    width: 70px;
+    height: 40px;
+    border-radius:7px;
+    cursor: pointer;
+}

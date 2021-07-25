@@ -1,0 +1,34 @@
+
+
+.todoList_task{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+   column-gap: 20px;
+}
+
+.todolist_name{
+    font-size: 20px;
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.todolist_name.active{
+   color:green; 
+}
+
+.todolist_name.important{
+   color:red;
+}
+
+.todolist_name.done{
+   text-decoration: line-through; 
+
+   transition: 0.30s ease;
+}
+.todolist_btns{
+   display: flex;
+    column-gap: 10px;
+}
+

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.todo{
+    background-color: skyblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container{
+    width: 100%;
+    max-width: 550px;
+    padding: 20px 10px;
+    background-color:ghostwhite;
+    border-radius:10px;
+}
+
+.search{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
